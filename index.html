@@ -23,7 +23,7 @@
   <body>
     <nav class="navbar navbar-expand-md navbar-light bg-primary">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand text-white" href="#">Navbar</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -61,21 +61,110 @@
         </div>
       </div>
     </nav>
-    <section id="exercise-1">
+    <section id="exercise-1" class="my-5">
       <div class="container text-center">
         <h1>Exercise 1</h1>
         <p>
           Recreate this table just using Bootstrap 4 classes or styling without
           adding or removing any DOM element
         </p>
-        <div class="row d-flex">
-          <div class="col">
+        <div class="row">
+          <div class="col bg-greenish text-white">
             First Column <br />
             Height 400px; <br />
             Green-ish background <br />Text Centered
           </div>
-          <div class="col"></div>
-          <div class="col"></div>
+          <div class="col bg-blueish text-bold">
+            Second Column <br />
+            Text To the bottom <br />
+            Bold, blueish <br />
+            background
+          </div>
+          <div class="col">
+            <div class="row d-flex">
+              <div class="col bg-part1">Third Column Part 1</div>
+              <div class="col bg-part2">Third Column Part 2</div>
+              <div class="col bg-part3">Third Column Part 3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="exercise-2 ">
+      <div class="container text-center">
+        <h1>Exercise 2</h1>
+        <p>
+          Create a pricing table to sell your product! Classical, 3 card
+          approach with 3 pricing. This is a classical user/priced product, with
+          new feature enabled for the pro / enterprise version.
+        </p>
+        <div class="row row-cols-3" style="align-items: center">
+          <div class="col col-3 centered" style="padding: 0px; margin: 0px">
+            <div
+              class="card bg-light mb-3 text-center"
+              style="max-width: 21rem; max-height: 20rem"
+            >
+              <div class="card-header" style="font-size: 1.25vw">Free</div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span style="font-size: 2vw">€0</span>
+                  <span style="font-size: 1.7vw; color: grey; font-weight: 400"
+                    >/ mo</span
+                  >
+                </h5>
+                <p class="card-text">10 users included</p>
+                <p class="card-text">2 GB of storage</p>
+                <p class="card-text">Email support</p>
+                <p class="card-text">Help Center Access</p>
+                <a href="#" class="btn btn-outline-primary buttonEx2"
+                  >Sign Up for free</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col col-3 centered" style="padding: 0px; margin: 0px">
+            <div
+              class="card bg-light mb-3 text-center"
+              style="max-width: 21rem; max-height: 20rem"
+            >
+              <div class="card-header" style="font-size: 1.25vw">Free</div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span style="font-size: 2vw">€15</span>
+                  <span style="font-size: 1.7vw; color: grey; font-weight: 400"
+                    >/ mo</span
+                  >
+                </h5>
+                <p class="card-text">20 users included</p>
+                <p class="card-text">10 GB of storage</p>
+                <p class="card-text">priority Email support</p>
+                <p class="card-text">Help Center Access</p>
+                <a href="#" class="btn btn-primary buttonEx2">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-3 centered" style="padding: 0px; margin: 0px">
+            <div
+              class="card bg-light mb-3 text-center"
+              style="max-width: 21rem; max-height: 20rem"
+            >
+              <div class="card-header" style="font-size: 1.25vw">Free</div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span style="font-size: 2vw">€29 </span>
+                  <span style="font-size: 1.7vw; color: grey; font-weight: 400"
+                    >/ mo</span
+                  >
+                </h5>
+                <p class="card-text">30 users included</p>
+                <p class="card-text">15 GB of storage</p>
+                <p class="card-text">phone and Email support</p>
+                <p class="card-text">Help Center Access</p>
+                <a href="#" class="btn btn-primary buttonEx2">Contact Us</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

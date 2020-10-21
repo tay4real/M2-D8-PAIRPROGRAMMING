@@ -1,0 +1,60 @@
+.bg-greenish {
+  background-color: #6bb56b;
+}
+.bg-blueish {
+  background-color: #299bff;
+}
+.bg-part1 {
+  background-color: #fff7bd;
+}
+.bg-part2 {
+  background-color: #ffed69;
+}
+.bg-part3 {
+  background-color: #ffe41f;
+}
+
+#exercise-1 div div.row {
+  min-height: 400px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+#exercise-1 div div.row div.col:first-of-type {
+  flex-grow: 3;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+#exercise-1 div div.row div.col:nth-of-type(2) {
+  flex-grow: 1;
+}
+
+#exercise-1 div div.row div.col:last-of-type {
+  flex-grow: 2;
+}
+
+#exercise-1 div div.row div.col:last-of-type div.row {
+  flex-direction: column;
+}
+
+#exercise-1 div div.row div.col:last-of-type div.row div.col:first-of-type {
+  flex-grow: 1;
+}
+#exercise-1 div div.row div.col:last-of-type div.row div.col:nth-of-type(2) {
+  flex-grow: 1;
+}
+#exercise-1 div div.row div.col:last-of-type div.row div.col:last-of-type {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+p {
+  margin: 0vw;
+}
+
+.buttonEx2 {
+  margin-top: 5px;
+  width: 15vw;
+  height: 2.2vw;
+}
